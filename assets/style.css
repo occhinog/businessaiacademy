@@ -127,6 +127,10 @@ main {
   color: var(--muted);
 }
 
+#corsi .section__intro {
+  max-width: none;
+}
+
 .anchor-section {
   scroll-margin-top: 80px;
 }
@@ -422,6 +426,17 @@ main {
   align-items: center;
   justify-content: space-between;
   gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.site-footer__sale {
+  flex-basis: 100%;
+  color: var(--white);
+  font-size: 0.875rem;
+}
+
+#domain-price {
+  white-space: nowrap;
 }
 
 .site-footer .wordmark span {
